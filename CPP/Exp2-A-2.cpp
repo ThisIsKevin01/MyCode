@@ -9,25 +9,25 @@ void Devide(int Number, int Count)
    case 5:
       Numbers[4] = Number / 10000;
       Number -= Numbers[4] * 10000;
-      cout << "ä¸‡ä½ä¸º:" << Numbers[4] << endl;
+      cout << "ÍòÎ»Îª:" << Numbers[4] << endl;
    case 4:
       Numbers[3] = Number / 1000;
       Number -= Numbers[3] * 1000;
-      cout << "åƒä½ä¸º:" << Numbers[3] << endl;
+      cout << "Ç§Î»Îª:" << Numbers[3] << endl;
    case 3:
       Numbers[2] = Number / 100;
       Number -= Numbers[2] * 100;
-      cout << "ç™¾ä½ä¸º:" << Numbers[2] << endl;
+      cout << "°ÙÎ»Îª:" << Numbers[2] << endl;
    case 2:
       Numbers[1] = Number / 10;
       Number -= Numbers[1] * 10;
-      cout << "åä½ä¸º:" << Numbers[1] << endl;
+      cout << "Ê®Î»Îª:" << Numbers[1] << endl;
    case 1:
       Numbers[0] = Number;
-      cout << "ä¸ªä½ä¸º:" << Numbers[0] << endl;
+      cout << "¸öÎ»Îª:" << Numbers[0] << endl;
       break;
    }
-   cout << "é€†åºè¾“å‡º:";
+   cout << "ÄæĞòÊä³ö:";
    for (int i = 0;i < Count; i++)
    {
       cout << Numbers[i];
@@ -38,31 +38,31 @@ int main()
 {
    int Number = 0;
    int Count = 0;
-   cout << "è¾“å…¥æ•´æ•°:" << endl;
+   cout << "ÊäÈëÕûÊı:" << endl;
    cin >> Number;
    if (Number > 9999)
    {
-      cout << "è¯¥æ•°å­—ä¸ºäº”ä½æ•°" << endl;
+      cout << "¸ÃÊı×ÖÎªÎåÎ»Êı" << endl;
       Count = 5;
    }
    else if (Number > 999)
    {
-      cout << "è¯¥æ•°å­—ä¸ºå››ä½æ•°" << endl;
+      cout << "¸ÃÊı×ÖÎªËÄÎ»Êı" << endl;
       Count = 4;
    }
    else if (Number > 99)
    {
-      cout << "è¯¥æ•°å­—ä¸ºä¸‰ä½æ•°" << endl;
+      cout << "¸ÃÊı×ÖÎªÈıÎ»Êı" << endl;
       Count = 3;
    }
    else if (Number > 9)
    {
-      cout << "è¯¥æ•°å­—ä¸ºä¸¤ä½æ•°" << endl;
+      cout << "¸ÃÊı×ÖÎªÁ½Î»Êı" << endl;
       Count = 2;
    }
    else
    {
-      cout << "è¯¥æ•°å­—ä¸ºä¸€ä½æ•°" << endl;
+      cout << "¸ÃÊı×ÖÎªÒ»Î»Êı" << endl;
       Count = 1;
    }
    Devide(Number, Count);
