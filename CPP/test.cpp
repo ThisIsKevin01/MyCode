@@ -1,7 +1,7 @@
 #include <iostream>
-#include <iomanip>
+#include <string>
 using namespace std;
 int main()
 {
-    cout << setw(10) << setprecision(4) << 7.5612 << endl;
+    cout << 8 / 10 << endl;
 }
