@@ -1,14 +1,8 @@
 #include <stdio.h>
-
-char Test(char *ch)
-{
-    int a = sizeof(ch) / sizeof(ch[0]);
-    printf("%d", a);
-}
-
+#include <string.h>
 int main()
 {
-
-    Test("HelloWorld");
+    char a[10] = {1, 0, 3, 4, 5, 6, 1, 2, 3, 4};
+    printf("%d\n", strlen(a));
     return 0;
 }
