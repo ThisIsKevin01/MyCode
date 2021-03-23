@@ -13,4 +13,4 @@ void P68_II_1(int a, int b, int c)
 int main()
 {
     P68_II_1(42, 64, 231);
-}w
+}
