@@ -22,7 +22,8 @@
                 "echo": true,
                 "reveal": "always", // 执行任务时是否跳转到终端面板，可以为always，silent，never。具体参见VSC的文档
                 "focus": false, // 设为true后可以使执行task时焦点聚集在终端，但对编译C/C++来说，设为true没有意义
-                "panel": "shared" // 不同的文件的编译信息共享一个终端面板
+                "panel": "shared", // 默认为“shared“表示共享，改成new之后每个进程创建新的端口
+                "showReuseMessage": false
             },
             // "problemMatcher":"$gcc" // 此选项可以捕捉编译时终端里的报错信息；本文用的是clang，开了可能会出现双重报错信息；只用cpptools可以考虑启用
         }

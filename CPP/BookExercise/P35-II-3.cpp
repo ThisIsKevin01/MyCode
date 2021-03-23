@@ -16,4 +16,4 @@ int main()
     cout << "千位为:" << nums[3] << endl;
     cout << "万位为:" << nums[4] << endl;
     cout << "逆序输出:" << nums[0] << "  " << nums[1] << "  " << nums[2] << "  " << nums[3] << "  " << nums[4] << endl;
-}
+} 
