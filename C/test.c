@@ -1,8 +1,11 @@
 #include <stdio.h>
-#include <string.h>
 int main()
 {
-    char a[10] = {1, 0, 3, 4, 5, 6, 1, 2, 3, 4};
-    printf("%d\n", strlen(a));
+    char arr1[] = "abcdef";
+    char arr2[] = "abcdef";
+    if (arr1 == arr2)
+        printf("Yes");
+    else
+        printf("No");
     return 0;
 }
