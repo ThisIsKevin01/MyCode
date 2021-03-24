@@ -1,9 +1,13 @@
-#coding=gbk
-# e3.4 DayDayUp365.py
-dayup, dayfactor = 1.0, 0.01
-for i in range(365):
-    if i % 7 in [6, 0]:
-        dayup = dayup * (1 - dayfactor)
-    else:
-        dayup = dayup * (1 + dayfactor)
-print("向上5天向下2天的力量:{:.2f}.".format(dayup))
+# coding=gbk
+import time
+scale = 50
+print("执行开始".center(scale//2, '-'))
+t = time.perf_counter()
+for i in range(scale + 1):
+    a = '*' * i
+    b = '.' * (scale - i)
+    c = (i / scale) * 100
+    t -= time.perf_counter()
+    print("\r{:^3.0f}%[{}->{}]{:.2f}s".format(c, a, b, -t),end=' ')
+    time.sleep(0.05)
+print("\n" + "执行结束".center(scale // 2, '-'))
