@@ -1,5 +1,18 @@
 # MyCode
 Just my codes
+
+
+
+
+
+
+
+
+
+
+
+
+
                                                            _oo0oo_
                                                           o8888888o
                                                           88" . "88
