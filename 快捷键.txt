@@ -1,0 +1,15 @@
+重命名变量: 选中变量名后按F2
+转到变量名的定义处: 选中变量名后按F12
+同时选择多个单词: Alt + Click
+同时选择上一行 (Ctrl + Alt + Up) 或者下一行 (Ctrl + Alt + Down) 的相同位置：
+依次找出文中所有的当前选中的单词: Ctrl + D
+一次性找出文所有的当前选中的单词: Ctrl + Shift + L
+拓展性 (Shift + Alt + Right) 或者收缩性 (Shift + Alt + Left) 的选中文本
+矩形框的鼠标选择: 同时按住Shit和Alt并使用鼠标进行拖拽选择
+在上方复制一行Shift + Alt + Up，在下方复制一行Shift + Alt + Down
+
+命令面板:F1 或者 Cmd+Shift+P
+
+
+l Upload Key : Shift + Alt + U 快捷键备份(上传)
+l Download Key : Shift + Alt + D快捷键恢复(下载)

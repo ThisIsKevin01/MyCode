@@ -8,12 +8,13 @@ void print(int w)
         print(w - 1);
         for (int i = 1; i <= w; i++)
         {
-            cout << w << endl;
+            cout << w << " ";
         }
+        cout << endl;
     }
 }
 
 int main()
 {
-    print(10);
+    print(5);
 }
