@@ -1,9 +1,6 @@
 # MyCode
 Just my codes
-
-
-<<<<<<< HEAD
-                                                          _oo0oo_
+                                                           _oo0oo_
                                                           o8888888o
                                                           88" . "88
                                                           (| -_- |)
