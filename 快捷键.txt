@@ -13,3 +13,5 @@
 
 l Upload Key : Shift + Alt + U 快捷键备份(上传)
 l Download Key : Shift + Alt + D快捷键恢复(下载)
+Alt + Shift + A使用/**/注释中间语句
+Ctrl + /批量注释

@@ -1,20 +1,19 @@
 #include <iostream>
+#include <cstdio>
 using namespace std;
-
-void Binary(int x, int &bin)
-{
-    if (x > 0)
-    {
-        Binary(x / 2, bin);
-        bin *= 10;
-        bin += x % 2;
-        x /= 2;
-    }
-}
-
+inline int isnumber(char);
 int main()
 {
-    int bin = 0;
-    Binary(5, bin);
-    cout << bin;
+    char c;
+    int n;
+    n = 0;
+    while ((c = getchar()) != '\n')
+        if (isnumber(c))
+            n++;
+    cout << "n = " << n << endl;
+}
+
+int isnumber(char ch)
+{
+    return (ch >= '0' && ch <= '9') ? 1 : 0;
 }

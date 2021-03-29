@@ -1,0 +1,6 @@
+X 查看交叉引用
+N 重新命名
+F5 编译伪代码
+ESC 返回上一步 类似Crtl + Z
+Shift + F12 查看字符串
+Ctrl + E 进入start
